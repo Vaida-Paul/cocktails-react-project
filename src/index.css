@@ -4,8 +4,11 @@ Variables
 ======
 */
 :root {
-  --primaryLightColor: #d4e6a5;
-  --primaryColor: #476a2e;
+  /* --primaryLightColor: #d4e6a5; */
+  --primaryLightColor: rgb(69, 211, 233);
+  /* --primaryColor: #476a2e; */
+  --primary-500: #10b981;
+  --primaryColor: #07bc0c;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
@@ -165,8 +168,14 @@ Navbar
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-.logo {
+/* .logo {
   width: 12rem;
+} */
+.logo {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  color: var(--primary-500);
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 /* 
 ====== 

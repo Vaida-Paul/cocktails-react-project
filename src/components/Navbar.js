@@ -7,7 +7,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <Link to="/">
-          <img src={logo} alt="cocktail db logo" className="logo" />
+          {/* <img src={logo} alt="cocktail db logo" className="logo" /> */}
+          <a href="" className="logo">
+            CoktailDB
+          </a>
         </Link>
         <ul className="nav-links">
           <li>

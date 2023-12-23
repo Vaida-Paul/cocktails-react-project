@@ -18,7 +18,7 @@ const SingleCocktail = () => {
             strDrink: name,
             strDrinkThumb: image,
             strAlcoholic: info,
-            strCategoru: category,
+            strCategory: category,
             strGlass: glass,
             strInstructions: instructions,
             strIngredient1,
